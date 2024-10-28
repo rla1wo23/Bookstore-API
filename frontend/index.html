@@ -1,12 +1,8 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html>
   <head>
     <title>책 목록</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
   </head>
   <body>
     <h1>책 목록</h1>
@@ -23,7 +19,7 @@
       <button type="submit">추가</button>
     </form>
 
-    <div id="edit-form-container" style="display: none">
+    <div id="edit-form-container">
       <h2>책 수정</h2>
       <form id="edit-book-form">
         <input type="hidden" id="edit-id" />
@@ -38,6 +34,6 @@
       </form>
     </div>
 
-    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="static/app.js"></script>
   </body>
 </html>
