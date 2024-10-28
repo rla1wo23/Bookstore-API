@@ -1,0 +1,25 @@
+/* static/style.css */
+#book-list li {
+  position: relative;
+}
+
+#book-list li button {
+  margin-left: 5px;
+}
+
+#edit-form-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#edit-form-container form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+#edit-form-container form button {
+  padding: 5px 15px;
+  margin-right: 5px;
+}
